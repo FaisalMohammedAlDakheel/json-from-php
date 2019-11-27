@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     Button bttn_sqlConn;
     TextView textview;
     phpConn phpC = new phpConn();
-    final String fetch = "http://192.168.11.141:8080/sqli/fetch2json.php";
+    final String fetch = "http://192.168.43.3:80/sqli/fetch2json.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
